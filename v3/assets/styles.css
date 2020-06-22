@@ -1,0 +1,47 @@
+html,
+body,
+.grid-container {
+  height: 100%;
+  margin: 0;
+}
+
+.grid-container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  gap: 1px 1px;
+  grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
+}
+
+.container {
+  height: 680px;
+  width: 680px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.square1,
+.square2,
+.square3,
+.square4,
+.square5 {
+  border: 4px solid black;
+}
+/*
+#ff0000     1
+#ff9800     
+#f6ff00
+#90ff00
+#00ff7e
+#00b6ff
+#0024ff
+#8500ff
+#ff00db
+#4e4e4e
+*/

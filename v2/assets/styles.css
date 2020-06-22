@@ -1,0 +1,41 @@
+html,
+body,
+.grid-container {
+  height: 100%;
+  margin: 0;
+}
+
+.grid-container {
+  background-color: #4e4e4e;
+
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  gap: 1px 1px;
+  grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
+}
+
+.container {
+  height: 680px;
+  width: 680px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*
+#4e4e4e
+#ff0000
+#ff9800
+#f6ff00
+#90ff00
+#00ff7e
+#00b6ff
+#00b6ff
+#8500ff
+#ff00db
+#4e4e4e
+*/
